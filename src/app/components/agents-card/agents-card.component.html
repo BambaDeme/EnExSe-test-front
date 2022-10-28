@@ -1,0 +1,5 @@
+<div class="card" [ngClass]="{'total': key==='total'}">
+    <div class="title">{{ title }}</div>
+    <div class="number" [ngStyle]="{'color':getColor()}" *ngIf="response$ | async as response">{{ getAgentLength(response.results) }}</div>
+</div>
+

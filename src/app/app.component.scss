@@ -1,0 +1,17 @@
+.container{
+    
+    width: 80%;
+    margin: auto;
+    
+    header{
+     padding: 50px 20px;   
+    }
+    h2{
+        padding: 10px 20px;
+    }
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+}
